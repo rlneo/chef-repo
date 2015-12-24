@@ -11,5 +11,3 @@ chef_server_url          "https://api.chef.io/organizations/hpneo"
 cookbook_path            ["#{current_dir}/../cookbooks"]
 http_proxy               "http://web-proxy.jpn.hp.com:8080"
 https_proxy              "http://web-proxy.jpn.hp.com:8080"
-require 'rest-client'
-RestClient.proxy = "http://web-proxy.jpn.hp.com:8080"
